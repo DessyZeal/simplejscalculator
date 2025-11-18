@@ -13,3 +13,24 @@ addBtn.addEventListener('click', () => {
     const sum = num1 + num2;
     result.textContent = `Answer: ${sum}`;
 });
+
+subBtn.addEventListener('click', () => {
+    const num1 = Number(firstNumber.value);
+    const num2 = Number(secondNumber.value);
+    const sum = num1 - num2;
+    result.textContent = `Answer: ${sum}`;
+});
+
+mulBtn.addEventListener('click', () => {
+    const num1 = Number(firstNumber.value);
+    const num2 = Number(secondNumber.value);
+    const sum = num1 * num2;
+    result.textContent=`Answer: ${sum}`;
+});
+
+divBtn.addEventListener('click', () => {
+    const num1 = Number(firstNumber.value);
+    const num2 = Number(secondNumber.value);
+    const sum = num1/num2;
+    result.textContent = `Answer: ${sum}`;
+});
